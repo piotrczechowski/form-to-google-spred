@@ -8,7 +8,8 @@ document.getElementById('dataForm').addEventListener('submit', function (e) {
       data.append(pair[0], pair[1]);
     }
   
-    fetch('https://script.google.com/macros/s/AKfycbwJ9rP6gujklr5iAoTxRD0tNVouoiUq_3qIf2UIMOiYddLr7kjb3Hjqa1fJAWsjXii0/exec', { // Podmień na swój URL Web App
+    fetch('https://script.google.com/macros/s/AKfycbwJ9rP6gujklr5iAoTxRD0tNVouoiUq_3qIf2UIMOiYddLr7kjb3Hjqa1fJAWsjXii0/exec', { // Enter the Google Apps Script URL 
+      
       method: 'POST',
       body: data,
       headers: {
