@@ -9,7 +9,7 @@ document.getElementById('dataForm').addEventListener('submit', function (e) {
     }
   
     fetch('https://script.google.com/macros/s/AKfycbwJ9rP6gujklr5iAoTxRD0tNVouoiUq_3qIf2UIMOiYddLr7kjb3Hjqa1fJAWsjXii0/exec', { // Enter the Google Apps Script URL 
-      
+
       method: 'POST',
       body: data,
       headers: {
@@ -34,5 +34,12 @@ document.getElementById('dataForm').addEventListener('submit', function (e) {
   });
   
   
+  // function validateForm() {
+  //   var x = document.forms["dataForm"]["name"].value;
+  //   if (x == "") {
+  //     alert("Name must be filled out");
+  //     return false;
+  //   }
+  // }
 
   
